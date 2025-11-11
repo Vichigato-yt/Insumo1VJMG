@@ -47,10 +47,12 @@ export default function Register() {
 
           <Text className="text-sm text-gray-600 mb-2">Nombre</Text>
           <TextInput
-            className="border rounded-lg px-4 py-3 mb-4 bg-white"
-            placeholder="Tu nombre"
+  className="border rounded-lg px-4 py-3 mb-4 bg-white"
+  placeholder="Tu nombre"
+  value={values.name}
             onChangeText={(v) => setValue("name", v, { shouldValidate: true })}
           />
+
 
           <EmailInput
             value={values.email}

@@ -8,6 +8,7 @@ import EmailInput from "@/components/emailInput";
 import PasswordInput from "@/components/passwordInput";
 import AuthButton from "@/components/AuthButton";
 import { useRouter } from "expo-router";
+import "@/global.css"
 
 export default function Login() {
   const router = useRouter();
